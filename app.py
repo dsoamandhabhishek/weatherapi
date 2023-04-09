@@ -6,8 +6,8 @@ import mysql.connector
 app = Flask(__name__)
 
 # Connect to MySQL database
-cnx = mysql.connector.connect(user='root', password='12345',
-                              host='localhost', database='your_database')
+cnx = mysql.connector.connect(user='admin', password='6542abhi',
+                              host='database-1.c0nnmclgrhmk.ap-south-1.rds.amazonaws.com', database='database-1')
 cursor = cnx.cursor()
 
 # Define route for index page
